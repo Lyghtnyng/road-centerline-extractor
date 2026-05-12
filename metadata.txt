@@ -1,0 +1,16 @@
+[general]
+name=Road Centerline Extractor
+qgisMinimumVersion=3.0
+description=Extracts clean centerlines from road polygon layers, with automatic segmentation at T-junctions for road classification.
+version=1.0.0
+author=Roberto Geraldes
+email=rob.filipe007@hotmail.com
+about=This plugin converts road polygon layers into centerlines. It automatically segments the output at T-junctions and intersections, allowing each road segment to be individually classified. Supports spur pruning, minimum road width filtering, and length reporting in multiple units.
+tracker=
+repository=
+tags=centerline,road,polygon,skeleton,segmentation,junction,length
+homepage=
+category=Vector
+icon=icon.png
+experimental=False
+deprecated=False
